@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Project-Portifolio';
+  title = 'Estudos-Angular';
+  isAliveCheckComponent: boolean = true
+
+  disposeCheckSample():void{
+    this.isAliveCheckComponent = false
+  }
 }
